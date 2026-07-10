@@ -39,7 +39,8 @@ docker compose up -d --build
 docker compose ps
 ```
 > Saida esperada do comando:
-<img width="1772" height="81" alt="image" src="https://github.com/user-attachments/assets/d1b7a0d8-b9eb-47d8-8084-2c745935620d" />
+
+<img width="1766" height="79" alt="image" src="https://github.com/user-attachments/assets/caa8c5cf-ee11-467b-bf8f-30e20184b81b" />
 
 > Dados armazenados no volume "traffic-analyzer_postgres_data", para consultar execute:
 ```
@@ -50,7 +51,8 @@ docker volume ls
 docker exec -it sniffer_postgres psql -U postgres -d sniffer_db -c "SELECT * FROM packets ORDER BY id DESC LIMIT 10;"
 ```
 > Saida esperada do comando:
-<img width="1318" height="309" alt="image" src="https://github.com/user-attachments/assets/ab0f3f6a-5cfe-49b6-bf07-045c7cf65e9a" />
+
+<img width="1111" height="260" alt="image" src="https://github.com/user-attachments/assets/d822b82e-68cb-4c43-b353-e0ace03ecbe3" />
 
 > Comandos para realizar outras consultas:
 ```
@@ -93,7 +95,7 @@ PATH arquivo de Configuração:
 ```
 > Reinicie o aplicativo Claude caos esteja em execução e verifique em Conectores se está Habilitado:
 
-<img width="897" height="556" alt="image" src="https://github.com/user-attachments/assets/b550cd40-9da9-4a6f-af33-36b20f362061" />
+<img width="876" height="523" alt="image" src="https://github.com/user-attachments/assets/761b065d-f2ed-470e-b32d-b2acd30e7b8c" />
 
 >Exemplos de prompts no Claude Desktop:<br /><br />
 
@@ -104,10 +106,10 @@ PATH arquivo de Configuração:
 "O sniffer registrou alguma atividade recente agora?"<br />
 "Quem são os maiores geradores de tráfego UDP na rede?"<br />
 
-> Permitir a execução:<br />
+> Permita a execução e realize a consulta:<br />
 
-<img width="547" height="496" alt="image" src="https://github.com/user-attachments/assets/290cc270-6232-43d5-a787-0f9fb5c8446f" />
-<img width="981" height="528" alt="image" src="https://github.com/user-attachments/assets/410506d1-00a9-4595-91b8-543bcb62953e" />
+<img width="967" height="620" alt="image" src="https://github.com/user-attachments/assets/ff1ccb8f-394c-4ee8-a649-d8839116c735" />
+<img width="934" height="614" alt="image" src="https://github.com/user-attachments/assets/3907bfe2-aa68-4137-bb19-74eff67d1b63" />
 
 ## 4. Nota de Isenção de Segurança (Ambiente Não Produtivo)
 
