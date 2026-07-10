@@ -1,4 +1,4 @@
-# Analisador de Tráfego de Rede com Integração MCP
+# Analisador de Trafego de Rede com Integração MCP
 
 >Este projeto consiste numa solução em microsserviços conteinerizada para captura, persistência e análise estatística de pacotes de rede (Camadas 3 e 4). O diferencial arquitetural baseia-se na exposição de dados por meio do **Model Context Protocol (MCP)**, permitindo auditorias e consultas complexas na infraestrutura utilizando linguagem natural via Claude Desktop.
 
